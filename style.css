@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); /* Improved box shadow for depth */
+    max-width: 500px; /* Increased max-width for larger screens */
+}
+
+h1 {
+    font-size: 3rem; /* Larger heading size for emphasis */
+    color: #333;
+    margin-bottom: 20px;
+    letter-spacing: -1px; /* Slight negative letter-spacing for tighter appearance */
+}
+
+p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 30px; /* Adjusted padding for smaller screens */
+    }
+    h1 {
+        font-size: 2.5rem; /* Reduced heading size for smaller screens */
+    }
+    p {
+        font-size: 1rem; /* Reduced paragraph font size for smaller screens */
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        padding: 20px; /* Further reduced padding for very small screens */
+    }
+    h1 {
+        font-size: 2rem; /* Further reduced heading size for very small screens */
+    }
+}
